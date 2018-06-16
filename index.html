@@ -1,0 +1,688 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="description" content="">
+  	<meta name="keywords" content="">
+  	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  	<title>迪威迅首页</title>
+  	<meta name="renderer" content="webkit">
+  	<!-- No Baidu Siteapp-->
+  	<meta http-equiv="Cache-Control" content="no-siteapp"/>
+  	<link rel="stylesheet" href="assets/css/amazeui.min.css">
+  	<link rel="stylesheet" href="assets/css/swiper.min.css">
+  	<link rel="stylesheet" href="assets/css/style.css">
+  	<script src="assets/js/jquery.min.js"></script>
+  	<script src="assets/js/common.js"></script>
+  	<script src="assets/js/swiper.min.js"></script>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_702550_3c60k2sbqzv.css">
+	<!-- 单独插件↓ -->
+	<link rel="stylesheet" href="assets/css/jquery.mcustomscrollbar.css">
+	<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+</head>
+<body>
+	<!--header start-->
+	<!-- pc header start -->
+	<div class="header am-show-lg-only" data-am-sticky>
+        <div class="am-container">
+            <h1 class="am-fl logo am-text-left">
+                <a href="#" class="am-block"><img src="assets/images/logo.png" alt="" /></a>
+            </h1>
+            <div class="nav am-inline-block">
+                <ul class="am-cf nav_list">
+                    <li class="active">
+                        <a href="index.html" class="am-block">首页</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-block">关于迪威迅</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-block">业务板块</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-block">新闻中心</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-block">投资者关系</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_right am-fr">
+                <div class="shares am-fl">股票代码：<font>300167</font></div>
+                <div class="search am-fr">
+                    <form action="">
+                        <input type="text" placeholder="迪威讯">
+                        <button type="submit" class="am-icon-btn am-primary"><i class="am-icon-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</div>
+	<!-- pc header end -->
+
+	<!--mobile header↓-->
+	<div data-am-widget="header" class="am-header am-hide-lg-only" data-am-sticky>
+		<!--非首页时显示↓-->
+      	<!-- <div class="am-header-left am-header-nav">
+          	<a  href="javascript:history.back(-1)" class="am-block">
+                <i class="am-header-icon am-icon-angle-left am-icon-sm"></i>
+          	</a>
+      	</div> -->
+		
+
+      	<h1 class="am-header-title">
+	        <a data-am-smooth-scroll class="">
+				<!-- 首页显示logo↓ -->
+				<img src="assets/images/logo.png" alt="">
+				<!-- 其他页面直接显示栏目名称 -->
+				<!-- 栏目标题 -->
+			</a>
+	    </h1>
+		
+
+      	<div class="am-header-right am-header-nav">
+          	<button class="am-btn am-padding-right-0" data-am-offcanvas="{target: '#mobile_nav', effect: 'push'}"><i class="am-header-icon am-icon-bars"></i></button>
+      	</div>
+  	</div>
+
+	<!-- mobile nav -->
+	<div data-am-widget="menu" class="am-menu am-menu-offcanvas1 mobile_nav" data-am-menu-offcanvas> 
+	    <div class="am-offcanvas" id="mobile_nav">
+	      	<div class="am-offcanvas-bar">
+		      	<ul class="am-menu-nav am-avg-sm-1">
+		      		<li class="">
+		            	<a href="index.html" class="" >首页</a>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="">关于迪威迅</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="#" class="" >公司简介</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >董事长致辞</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >公司战略</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >发展历程</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >典型客户</a>
+		                  	</li>
+							<li class="">
+		                    	<a href="#" class="" >合作伙伴</a>
+		                  	</li>
+							<li class="">
+		                    	<a href="#" class="" >联系我们</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="关于迪威迅">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+					<li class="am-parent">
+		            	<a href="##" class="" >产品中心</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="#" class="" >视频会议类</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >视频监控类</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >激光显示类</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="产品中心">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >业务板块</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="#" class="" >城市智慧化服务</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >行业智慧化升级</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >新型园区</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="业务板块">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >新闻中心</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="#" class="" >公司新闻</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >媒体报道</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >产业动态</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="新闻中心">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+		          	<li class="am-parent">
+		            	<a href="##" class="" >投资者关系</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+		                  	<li class="">
+		                    	<a href="academic_list.html" class="" >股票信息</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="academic_list.html" class="" >定期报告</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="academic_list.html" class="" >临时公告</a>
+		                  	</li>
+							  <li class="">
+		                    	<a href="academic_list.html" class="" >研报与评论</a>
+		                  	</li>
+							  <li class="">
+		                    	<a href="academic_list.html" class="" >热点问题互动</a>
+		                  	</li>
+		                  	<!--看主栏目下有没有相应模板，如果没有则删除↓-->
+		                  	<li class="am-menu-nav-channel"><a href="#" class="" title="投资者关系">进入栏目 &raquo;</a></li>
+		              	</ul>
+		          	</li>
+					<li class="">
+		            	<a href="#" class="" >加入我们</a>
+		          	</li>
+					<li class="am-parent">
+		            	<a href="##" class="" >其他</a>
+		              	<ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+							<li class="">
+		                    	<a href="#" class="" >友情链接</a>
+		                  	</li>
+		                  	<li class="">
+		                    	<a href="#" class="" >法律声明</a>
+		                  	</li>
+							<li class="">
+		                    	<a href="#" class="" >意见与建议</a>
+		                  	</li>
+		              	</ul>
+		          	</li>
+		      	</ul>
+	      	</div>
+	    </div>
+  	</div>
+	<!--header end-->
+
+	<div class="index_main">
+		<!-- index_banner start -->
+		<div class="index_banner swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="#" class="am-block">
+						<img src="assets/images/index_bn_02.jpg" class="am-img-responsive" alt="">
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="#" class="am-block">
+						<img src="assets/images/index_bn_02.jpg" class="am-img-responsive" alt="">
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="#" class="am-block">
+						<img src="assets/images/index_bn_02.jpg" class="am-img-responsive" alt="">
+					</a>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination index_bn_pagination"></div>
+		</div>
+		<!-- index_banner end -->
+		<!-- item1 start -->
+		<div class="item1">
+			<div class="am-container">
+				<div class="desc am-text-center" data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">迪威迅是一家以技术、业态和管理的融合创新能力为依托，以用户需求和未来趋势为导向，<br>助力城市、园区和行业客户规划、构建和运营智慧化设施的综合服务商。</div>
+				<ul class="am-avg-sm-2 am-avg-lg-4">
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">
+						<div class="top">
+							<b>17</b>
+							<span>年</span>
+						</div>
+						<p>智慧化综合服务</p>
+					</li>
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 500, repeat:false}">
+						<div class="top">
+							<b>100</b>
+							<span>+</span>
+						</div>
+						<p>荣誉与专利</p>
+					</li>
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 700, repeat:false}">
+						<div class="top">
+							<b>200</b>
+							<span>+</span>
+						</div>
+						<p>项目案例</p>
+					</li>
+					<li data-am-scrollspy="{animation: 'slide-bottom', delay: 900, repeat:false}">
+						<div class="top">
+							<b>1000</b>
+							<span>+</span>
+						</div>
+						<p>精英团队</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- item1 end -->
+		<!-- item2 start -->
+		<div class="item2">
+			<div class="am-container">
+				<div class="item_title" data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">
+					<div class="item_name">聚焦领域</div>
+					<div class="item_desc">共建智慧设施，共创智美生活，共享发展价值</div>
+				</div>
+				<ul class="list am-g">
+					<li class="am-u-sm-12 am-u-md-4" data-am-scrollspy="{animation: 'slide-left', delay: 300, repeat:false}">
+						<a href="#" class="am-block">
+							<span class="am-block">
+								<img src="assets/images/field_03.jpg" alt=""> 
+							</span>
+							<div class="bd">
+								<div class="title">城市智慧化服务</div>
+								<p class="desc am-text-truncate">智慧物联重塑生产力</p>
+								<div class="feature">
+									<span>数据服务</span>
+									<span>智慧交通</span>
+									<span>环境管理</span>
+									<span>先进视觉</span>
+								</div>
+								<div class="link">
+									<button class="am-btn am-btn-primary am-radius">查看更多  <i>+</i></button>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="am-u-sm-12 am-u-md-4" data-am-scrollspy="{animation: 'fade', delay: 300, repeat:false}">
+						<a href="#" class="am-block">
+							<span class="am-block">
+								<img src="assets/images/field_05.jpg" alt="">
+							</span>
+							<div class="bd">
+								<div class="title">行业智慧化升级</div>
+								<p class="desc am-text-truncate">创建智美新元素</p>
+								<div class="feature">
+									<span>新农业</span>
+									<span>康养</span>
+									<span>文旅商融合</span>
+								</div>
+								<div class="link">
+									<button class="am-btn am-btn-primary am-radius">查看更多  <i>+</i></button>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="am-u-sm-12 am-u-md-4" data-am-scrollspy="{animation: 'slide-right', delay: 300, repeat:false}">
+						<a href="#" class="am-block">
+							<span class="am-block">
+								<img src="assets/images/field_07.jpg" alt="">
+							</span>
+							<div class="bd">
+								<div class="title">新型园区</div>
+								<p class="desc am-text-truncate">新型生产力和要素的聚合和承载</p>
+								<div class="feature">
+									<span>产城融合型园区</span>
+									<span>农工旅融合型园区</span>
+								</div>
+								<div class="link">
+									<button class="am-btn am-btn-primary am-radius">查看更多  <i>+</i></button>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- item2 end -->
+		<!-- item3 start -->
+		<div class="item3">
+			<div class="am-container">
+				<div class="item_title" data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">
+					<div class="item_name">支撑体系</div>
+					<div class="item_desc">以智慧物联平台为核心，培育新业态新模式</div>
+				</div>
+				<div class="bd"  data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">
+					<div class="tab_content" id="system_content" style="background-image: url(assets/images/system_12.jpg);" >
+						<div class="content on">
+							<div class="title">技术 • 支撑</div>
+							<ul class="am-block mCustomScrollbar"  data-mcs-theme="dark">
+								<li>
+									<div class="sub_title">1、关键技术</div>
+									<div class="sub_item_name">软件体系</div>
+									<p class="spot">• 新一代物联网框架平台</p>
+									<p class="spot">• 主流物联网MQTT通讯连接协议</p>
+									<p class="spot">• 大数据处理平台</p>
+									<p class="spot">• 人工智能管理平台</p>
+									<p class="spot">• 智慧管廊完整解决方案及技术标准</p>
+									<div class="sub_item_name">硬件体系</div>
+									<p class="spot">• 物联网智能信息处理系统（SIPS）</p>
+									<p class="spot">• NB-lot&LoRa协议&自主协议的物联网产品</p>
+									<p class="spot">• 高端传感器（RFID、机器人、SAR、VR等）</p>
+									<p class="spot">• 三基色激光投影显示系统</p>
+								</li>
+								<li>
+									<div class="sub_title">2、专利数量</div>
+									<p class="spot">• 29项国家发明专利</p>
+									<p class="spot">• 66件累计有效软著</p>
+									<p class="spot">• 4项智慧城市标准</p>
+								</li>
+								<li>
+									<div class="sub_title">3、生态圈</div>
+									<P class="words">华为、中兴通讯、南京邮电大学、中国电子学会、中国通信学会、大唐电信……</P>
+								</li>
+							</ul>
+						</div>
+						<div class="content">
+							<div class="title">实施 • 支撑</div>
+							<ul class="am-block mCustomScrollbar"  data-mcs-theme="dark">
+								<li>
+									<div class="sub_title">1、承建能力</div>
+									<p class="spot">• 10年+智慧化经验</p>
+									<p class="spot">• 200+智慧化项目建设案例</p>
+									<p class="spot">• 1000+精英团队</p>
+								</li>
+								<li>
+									<div class="sub_title">2、投融资建设</div>
+									<P class="words">以轻资产、重运营为主要财务模型，对交付及资产持有类项目，按需采用EPC、FEPC、EPCO等推进模式，PPP及股、债等多种投融资方式</P>
+								</li>
+							</ul>
+						</div>
+						<div class="content">
+							<div class="title">运营 • 支撑</div>
+							<ul class="am-block mCustomScrollbar"  data-mcs-theme="dark">
+								<li>
+									<div class="sub_title">1、项目运营</div>
+									<P class="words">以轻资产、重运营为主要财务模型</P>
+									<P class="words">对交付及资产持有类项目，按需采用EPC、FEPC、EPCO等推进模式，PPP及股、债等多种投融资方式</P>
+								</li>
+								<li>
+									<div class="sub_title">2、产业运营</div>
+									<P class="words">迪威迅提供商业运营服务，通过提供优质服务获取收益。</P>
+								</li>
+								<li>
+									<div class="sub_title">2、资源运营</div>
+									<P class="words">通过建设的资源运营获益。如：数据资源服务等。</P>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="control">
+						<ul class="am-avg-sm-3 am-text-center" id="system_control">
+							<li class="on">
+								<span class="am-block"><i class="iconfont">&#xe652;</i></span>
+								<p>技术支撑</p>
+							</li>
+							<li>
+								<span class="am-block"><i class="iconfont">&#xe655;</i></span>
+								<p>实施支撑</p>
+							</li>
+							<li>
+								<span class="am-block"><i class="iconfont">&#xe657;</i></span>
+								<p>运营支撑</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- item3 start -->
+		<!-- item4 start -->
+		<div class="item4">
+			<div class="am-container">
+				<div class="top am-g am-g-collapse">
+					<div class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+						<div class="item_title" data-am-scrollspy="{animation: 'slide-bottom', delay: 300, repeat:false}">
+							<div class="item_name">新闻中心</div>
+							<div class="item_desc">挖掘行业应用资讯，传播智慧化时代价值</div>
+						</div>
+					</div>
+					<div class="am-u-sm-12 am-u-md-12 am-u-lg-6" data-am-scrollspy="{animation: 'slide-right', delay: 300, repeat:false}">
+						<ul class="new_tab am-cf">
+							<!-- data-id放栏目id名称 -->
+							<li class="on" data-id="10">公司新闻</li>
+							<li data-id="11">媒体报道</li>
+							<li data-id="12">产业动态</li>
+						</ul>
+					</div>
+				</div>
+				<div class="down am-g am-g-collapse">
+					<div class="am-u-sm-12 am-u-md-6">
+						<div class="news_swiper" data-am-scrollspy="{animation: 'slide-left', delay: 300, repeat:false}">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="#" class="am-block" target="_blank">
+											<span class="am-block">
+												<img src="assets/images/new_07.jpg" class="am-img-responsive" alt="">
+											</span>
+											<p class="am-text-truncate">迪威迅与台农渔会合作：共同构建智慧农业新业态</p>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="am-block" target="_blank">
+											<span class="am-block">
+												<img src="assets/images/new_07.jpg" class="am-img-responsive" alt="">
+											</span>
+											<p class="am-text-truncate">迪威迅与台农渔会合作：共同构建智慧农业新业态</p>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="am-block" target="_blank">
+											<span class="am-block">
+												<img src="assets/images/new_07.jpg" class="am-img-responsive" alt="">
+											</span>
+											<p class="am-text-truncate">迪威迅与台农渔会合作：共同构建智慧农业新业态</p>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="am-block" target="_blank">
+											<span class="am-block">
+												<img src="assets/images/new_07.jpg" class="am-img-responsive" alt="">
+											</span>
+											<p class="am-text-truncate">迪威迅与台农渔会合作：共同构建智慧农业新业态</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="arrow">
+								<button class="am-icon-btn am-icon-btn-sm am-icon-long-arrow-left new_prev"></button>
+								<button class="am-icon-btn am-icon-btn-sm am-icon-long-arrow-right new_next"></button>
+							</div>
+						</div>
+					</div>
+					<div class="am-u-sm-12 am-u-md-6" data-am-scrollspy="{animation: 'slide-right', delay: 300, repeat:false}">
+						<div class="new_list">
+							<ul class="get_newlist">
+								<li class="am-cf">
+									<a href="#" class="am-block" target="_blank">
+										<div class="info am-fl">
+											<div class="day">23</div>
+											<p class="date">2018-03</p>
+										</div>
+										<div class="r">
+											<div class="title am-text-truncate">台湾农渔会来迪威迅考察洽谈农业合作</div>
+											<p>日前，台湾财团法人农渔会联合信息中心执行长徐嘉鸿一行前来迪威迅考察洽谈项目合作事宜。</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="am-block am-text-truncate" target="_blank">
+										迪威迅打造园区样板：铜仁碧江区智慧产业孵化园
+										<span class="time">2018-03-23</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="am-block am-text-truncate" target="_blank">
+										迪威迅再次通过国家高新技术企业认定
+										<span class="time">2018-03-23</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="am-block am-text-truncate" target="_blank">
+										迪威迅受邀出席2017陕西文化产业项目（深圳）推介会
+										<span class="time">2018-03-23</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="am-block am-text-truncate" target="_blank">
+										迪威迅：加速推进新型智慧城市建设
+										<span class="time">2018-03-23</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="am-block am-text-truncate" target="_blank">
+										迪威迅连续七年获评“5A级诚信示范企业”称号
+										<span class="time">2018-03-23</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="am-block am-text-truncate" target="_blank">
+										迪威迅：深度布局智慧城市大生态
+										<span class="time">2018-03-23</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- item4 end -->
+	</div>
+
+	<!-- footer start -->
+	<div class="footer">
+		<div class="top">
+			<div class="am-container am-cf">
+				<div class="foot_nav am-fl">
+					<ul class="am-cf am-avg-sm-5">
+						<li>
+							<div class="title">关于迪威迅</div>
+							<a href="#" class="am-block">公司简介</a>
+							<a href="#" class="am-block">董事长致辞</a>
+							<a href="#" class="am-block">公司战略</a>
+							<a href="#" class="am-block">发展历程</a>
+							<a href="#" class="am-block">典型客户</a>
+							<a href="#" class="am-block">合作伙伴</a>
+							<a href="#" class="am-block">联系我们</a>
+						</li>
+						<li>
+							<div class="title">业务板块</div>
+							<a href="#" class="am-block">城市智慧化服务</a>
+							<a href="#" class="am-block">行业智慧化升级</a>
+							<a href="#" class="am-block">新型园区</a>
+						</li>
+						<li>
+							<div class="title">新闻中心</div>
+							<a href="#" class="am-block">公司新闻</a>
+							<a href="#" class="am-block">媒体报道</a>
+							<a href="#" class="am-block">产业动态</a>
+						</li>
+						<li>
+							<div class="title">投资者关系</div>
+							<a href="#" class="am-block">股票信息</a>
+							<a href="#" class="am-block">定期报告</a>
+							<a href="#" class="am-block">临时公告</a>
+							<a href="#" class="am-block">研报与评论</a>
+							<a href="#" class="am-block">热点问题互动</a>
+						</li>
+						<li>
+							<div class="title">产品中心</div>
+							<a href="#" class="am-block">视频会议类</a>
+							<a href="#" class="am-block">视频监控类</a>
+							<a href="#" class="am-block">激光显示类</a>
+						</li>
+					</ul>
+				</div>
+				<div class="contact am-fl">
+					<div class="title">联系我们</div>
+					<div class="tel">
+						<p>全国服务热线：</p>
+						<h3>400-889-8228</h3>
+					</div>
+				</div>
+				<div class="am-fr wechat">
+					<div class="title">关注公众号</div>
+					<span class="ewm am-block">
+						<img src="assets/images/ewm_06.jpg" class="am-img-responsive" alt="">
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="down">
+			<div class="am-container am-cf">
+				<div class="copyright am-fl">© 版权所有　深圳市迪威迅股份有限公司　2001-2018 <a href="#">粤ICP备11066393号</a></div>
+				<ul class="am-fr">
+					<li><a href="#">友情链接</a></li>
+					<li><a href="#">法律声明</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li><a href="#">意见与建议</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+
+<script>
+	$(function(){
+		$("body").mCustomScrollbar({
+			theme:"minimal"
+		});
+
+		//推荐新闻更换
+		$(".new_tab li").click(function(){
+			$.ajax({
+				url:'new.json',
+				type:'GET',
+				async:false,
+				data:{
+					id:$(this).attr("data-id") //栏目或者广告组id
+				},
+				timeout:5000,
+				dataType:'json',
+				success:function(data){
+					console.log(data)
+					getRecommendNews(data)
+				},
+				error:function(textStatus){
+					console.log(textStatus)
+				}
+			})
+		})
+
+		function getRecommendNews(data){
+			var recommendNews = '';
+			var firstNews='';
+			$.each(data.content, function(index, item){
+				if(index == 0){
+					var day = item.date.split('-').pop();
+					var ym = item.date.split('-')[0]+'-'+item.date.split('-')[1];
+					firstNews = '<li class="am-cf"><a href="'+item.link+'" class="am-block" target="_blank"><div class="info am-fl"><div class="day">'+day+'</div><p class="date">'+ym+'</p></div><div class="r"><div class="title am-text-truncate">'+item.title+'</div><p>'+item.describe+'</p></div></a></li>'
+				}else{
+					recommendNews += '<li><a href="'+item.link+'" class="am-block am-text-truncate" target="_blank">'+item.title+'<span class="time">'+item.date+'</span></a></li>'
+				}
+			});
+			$(".get_newlist").html(firstNews+recommendNews);
+		}
+	})
+</script>
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+</html>
